@@ -8,6 +8,7 @@ from sklearn.model_selection import train_test_split
 import sklearn.metrics as mt
 from sklearn.svm import SVC
 import numpy as np
+# nouveau changement test 2 channel git
 @st.cache_data
 def load_data(nrows):
     data = pd.read_csv('train.csv', nrows=nrows)
