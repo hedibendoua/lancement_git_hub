@@ -23,6 +23,7 @@ X = data.drop(columns=['survived', 'passengerid', 'pclass', 'sibsp', 'ticket', '
 y = data["survived"]
 X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=1)
 st.write(X_train)
+# commentaire test GIT
 from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import OneHotEncoder
 # Initialize the OneHotEncoder
